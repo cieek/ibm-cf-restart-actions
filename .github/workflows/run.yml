@@ -15,6 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+
     - name: Install CF CLI
       run: |
         curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github&version=v6" | tar -zx
